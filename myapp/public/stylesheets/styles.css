@@ -1,0 +1,48 @@
+* {
+	font-family: Arial;
+	box-sizing: border-box;
+}
+
+.jumbotron {
+	background-image: url("/images/logo.jpg");
+	height: 800px;
+}
+#logo{
+	position: absolute;
+	margin-top: 25px;
+	top: 0px;
+	left:0px;
+	width: 20%;
+	height: 75px;
+	margin-left: calc(50% - 10%);
+	border-collapse: collapse;
+}
+#displayText{
+	font-style: italic;
+	font-weight: 200;
+	text-align: center;
+	margin-top: 150px;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+	color: #E25E75;
+}
+#test{
+	margin-top: 75px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	border-color: #b6323a;
+}
+.form-control{
+	height: 50px;
+	width: 10%;
+	
+	border-color: #b6323a;
+}
+.btn{
+	background-color: #b6323a;
+	border-color: #b6323a;
+	color: white;
+	height: 50px;
+
+}
+
